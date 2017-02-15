@@ -1,0 +1,5 @@
+Name: bmx-public
+Identifier: 1
+APIs:
+  - https://api.eu-gb.bluemix.net
+  - https://api.ng.bluemix.net
