@@ -3,7 +3,9 @@ Plugin for Cloud Foundry CLI to obtain status from multiple instances, e.g., sev
 
 
 ### Installation
-At this time you need to download and build the plugin on your own (no help offered). I am in the process of building plugin binaries that could be directly installed using the `cf` plugin-related commands. Stay tuned.
+At this time you need to download and build the plugin on your own (no help offered). I am in the process of building plugin binaries that could be directly installed using the `cf` plugin-related commands. 
+
+Right now, you can download the binary for linux86 and install it with `cf install-plugin pathToBinary/multi-instance`.
 
 ### Configuration
 A file `miconfig.yml` needs to be placed in the default configuration path for the cf CLI environment (typically `~/.cf`). The content is based on YAML and has the following structure:   
