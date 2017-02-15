@@ -24,7 +24,7 @@ cf mi [apps | orgs]
 ```   
 If no parameter is used, the configured API endpoints (instances) are printed. The parameter `apps` lets the plugin to return status information for all apps visible to the user across the configured the instances. With the parameter `orgs` the available organisations for each of the instances are shown:   
 ```
-cf mi orgs
+[henrik@machine]$ cf mi orgs
 Endpoint:  https://api.your-cf-instance1.com
 Org 0: data-henrik
 Org 1: BluemixSamples
@@ -33,3 +33,20 @@ Endpoint:  https://api.your-cf-instance2.com
 Org 0: data-henrik
 Org 1: TestOrg
 ```   
+# Useful Links
+Here are some useful links for developing plugins on your own:
+* Using cf CLI Plugins: http://docs.cloudfoundry.org/cf-cli/use-cli-plugins.html
+* Developing cf CLI Plugins: http://docs.cloudfoundry.org/cf-cli/develop-cli-plugins.html
+* Cloud Foundry plugin registry: https://plugins.cloudfoundry.org/
+* IBM Bluemix plugin registry: http://plugins.ng.bluemix.net/ui/repository.html
+* Repository for cf CLI, including plugin API: https://github.com/cloudfoundry/cli
+* Go cf client (used by this plugin): https://github.com/cloudfoundry-community/go-cfclient
+
+# License
+See [LICENSE](LICENSE) for license information.
+
+# Contact Information
+If you have found errors or some instructions are not working anymore, then please open an GitHub issue or, better, create a pull request with your desired changes.
+
+You can find more tutorials and sample code at:
+https://ibm-bluemix.github.io/
