@@ -2,11 +2,18 @@
 Plugin for Cloud Foundry CLI to obtain status from multiple instances, e.g., several Bluemix Public regions
 
 
-### Installation
-At this time you need to download and build the plugin on your own (no help offered). I am in the process of building plugin binaries that could be directly installed using the `cf` plugin-related commands. 
+### Installation & Uninstallation
+I created a releas with binaries for Linux64, OSX and Win64. Download the binary for your platform. They are named after the supported platform, e.g. `mi.linux64`. Then, in a command shell with the Cloud Foundry cf CLI present, change to the directory whith the binary.
+The following command with install (register) the plugin. Replace `linux64` with the name for your platform:
+ ```
+ cf install-plugin mi.linux64
+ ```   
 
-Right now, you can download the binary for linux86 and install it with `cf install-plugin pathToBinary/multi-instance`.
-
+If you want to remove the plugin, use the following command:
+ ```
+cf uninstall-plugin multi-instance
+ ```   
+ 
 ### Configuration
 A file `miconfig.yml` needs to be placed in the default configuration path for the cf CLI environment (typically `~/.cf`). The content is based on YAML and has the following structure:   
 ```
