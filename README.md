@@ -1,6 +1,10 @@
 # cf-multi-instance
 Plugin for Cloud Foundry CLI to obtain status from multiple instances, e.g., several Bluemix Public regions
 
+The development of this plugin was motivated by an interest in how cf CLI plugins work and their potential. See these blog posts for some related reading:
+* Extend the Bluemix CLI Through Plugins: http://blog.4loeser.net/2016/10/extend-bluemix-cli-through-plugins.html
+* Extend the Bluemix Command Line Interface Through Plugins: https://www.ibm.com/blogs/bluemix/2016/11/extend-bluemix-command-line-interface-plugins/
+* Write Your Own CLI Plugins for Bluemix Cloud Foundry: http://blog.4loeser.net/2017/02/write-your-own-cli-plugins-for-bluemix.html
 
 ### Installation & Uninstallation
 I created a releas with binaries for Linux64, OSX and Win64. Download the binary for your platform. They are named after the supported platform, e.g. `mi.linux64`. Then, in a command shell with the Cloud Foundry cf CLI present, change to the directory whith the binary.
